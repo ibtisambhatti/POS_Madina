@@ -51,6 +51,7 @@
             this.label5.Size = new System.Drawing.Size(189, 32);
             this.label5.TabIndex = 69;
             this.label5.Text = "Create Account";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -73,6 +74,7 @@
             this.button2.TabIndex = 67;
             this.button2.Text = "CLEAR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -87,6 +89,7 @@
             this.button1.TabIndex = 66;
             this.button1.Text = "LOGIN";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBoxshowpassword
             // 

@@ -53,6 +53,7 @@
             this.label5.Size = new System.Drawing.Size(201, 37);
             this.label5.TabIndex = 59;
             this.label5.Text = "Back To Log In";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
