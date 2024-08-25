@@ -16,7 +16,7 @@ namespace POS_Madina
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new login());
         }
     }
 }
