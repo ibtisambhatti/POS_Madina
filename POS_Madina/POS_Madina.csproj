@@ -66,6 +66,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetupCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetupCategory.Designer.cs">
+      <DependentUpon>SetupCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetupShowCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetupShowCategory.Designer.cs">
+      <DependentUpon>SetupShowCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Signup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +112,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SetupCategory.resx">
+      <DependentUpon>SetupCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetupShowCategory.resx">
+      <DependentUpon>SetupShowCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Signup.resx">
       <DependentUpon>Signup.cs</DependentUpon>
     </EmbeddedResource>
