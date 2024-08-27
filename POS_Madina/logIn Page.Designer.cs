@@ -58,7 +58,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txtUsername);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(191, -3);
+            this.panel1.Location = new System.Drawing.Point(191, 7);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(374, 566);
             this.panel1.TabIndex = 1;
@@ -70,7 +70,7 @@
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label6.Font = new System.Drawing.Font("Elephant", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(44, 60);
+            this.label6.Location = new System.Drawing.Point(44, 70);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(216, 44);
             this.label6.TabIndex = 71;
@@ -83,7 +83,7 @@
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label5.Location = new System.Drawing.Point(91, 515);
+            this.label5.Location = new System.Drawing.Point(91, 525);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 32);
             this.label5.TabIndex = 70;
@@ -94,7 +94,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label4.Location = new System.Drawing.Point(14, 491);
+            this.label4.Location = new System.Drawing.Point(14, 501);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(346, 33);
             this.label4.TabIndex = 69;
@@ -106,7 +106,7 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(52, 436);
+            this.button2.Location = new System.Drawing.Point(52, 446);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(265, 43);
             this.button2.TabIndex = 68;
@@ -115,12 +115,12 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(52, 378);
+            this.button1.Location = new System.Drawing.Point(52, 388);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(265, 43);
             this.button1.TabIndex = 67;
@@ -135,7 +135,7 @@
             this.checkBoxshowpassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxshowpassword.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxshowpassword.ForeColor = System.Drawing.Color.White;
-            this.checkBoxshowpassword.Location = new System.Drawing.Point(108, 331);
+            this.checkBoxshowpassword.Location = new System.Drawing.Point(108, 341);
             this.checkBoxshowpassword.Name = "checkBoxshowpassword";
             this.checkBoxshowpassword.Size = new System.Drawing.Size(221, 31);
             this.checkBoxshowpassword.TabIndex = 66;
@@ -146,7 +146,7 @@
             // 
             this.txtPassword.BackColor = System.Drawing.Color.Azure;
             this.txtPassword.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(45, 297);
+            this.txtPassword.Location = new System.Drawing.Point(45, 307);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(284, 28);
@@ -157,7 +157,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(46, 264);
+            this.label3.Location = new System.Drawing.Point(46, 274);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(151, 30);
             this.label3.TabIndex = 64;
@@ -168,7 +168,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(39, 186);
+            this.label1.Location = new System.Drawing.Point(39, 196);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(215, 31);
             this.label1.TabIndex = 61;
@@ -178,7 +178,7 @@
             // 
             this.txtUsername.BackColor = System.Drawing.Color.Azure;
             this.txtUsername.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(44, 220);
+            this.txtUsername.Location = new System.Drawing.Point(44, 230);
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(284, 28);
@@ -191,7 +191,7 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Elephant", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(44, 128);
+            this.label2.Location = new System.Drawing.Point(44, 138);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(140, 45);

@@ -63,16 +63,6 @@ namespace POS_Madina.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _360_F_327731402_LNIX2hHn5rwdzlgiDukKMOvcDym2RExd {
-            get {
-                object obj = ResourceManager.GetObject("360_F_327731402_LNIX2hHn5rwdzlgiDukKMOvcDym2RExd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
