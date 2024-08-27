@@ -61,7 +61,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(190, 7);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(375, 566);
+            this.panel1.Size = new System.Drawing.Size(422, 566);
             this.panel1.TabIndex = 1;
             // 
             // label6
@@ -71,11 +71,12 @@
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label6.Font = new System.Drawing.Font("Elephant", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(26, 53);
+            this.label6.Location = new System.Drawing.Point(3, 41);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(340, 44);
+            this.label6.Size = new System.Drawing.Size(409, 44);
             this.label6.TabIndex = 93;
-            this.label6.Text = "WELOME BACK";
+            this.label6.Text = "Create A New Account";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -169,7 +170,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(27, 178);
+            this.label1.Location = new System.Drawing.Point(27, 187);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(215, 31);
             this.label1.TabIndex = 83;
